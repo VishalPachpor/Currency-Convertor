@@ -1,13 +1,11 @@
-import { useState } from 'react'
-
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
       <div>
-        <h1>Currency Convertor </h1>
+        <h1 className='text-white bg-purple-600 text-center'>Currency Convertor </h1>
       </div>
        
     </>
